@@ -7,7 +7,7 @@ Shamelessly copy+pasted from [End-of-Line Whitespace in Vim (March 01, 2011)](ht
 
 Goes well along with [bitc/vim-bad-whitespace](https://github.com/bitc/vim-bad-whitespace).
 
-Simply press `ctrl+<space>` and it removes the trailing whitespaces from current buffer.
+Simply press `<Leader><space>` and any trailing whitespaces are removed from current window.
 
 ## Installation
 
@@ -16,6 +16,7 @@ I strongly recommend to use [Vundle](https://github.com/gmarik/vundle)
      Bundle 'viddo/vim-yaws'
 
 ## Why another "strip whitespace" plugin?
+
 I did not want to strip trailing whitespace automatically.
 
 
